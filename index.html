@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<link rel="stylesheet" href="style.css">	<!-- esto "linkea" el estilo con la hoja correspondiente-->
+		<script src="script.js" defer></script>		<!-- para tener los SCRIPTS en otro archivo, como con el CSS-->
+		<h1>
+		    Christopher Abarca CV
+		</h1>
+	</head>
+	<body>
+		<hr>
+		<p>
+			Correo: cxxxxx@gmail.com
+			<br>
+			Numero: +569 XXXX XXX5
+			<br>
+			Pais: Chile
+			<br>
+			<img src="img/image.png" alt="Foto de perfil" width="200px">
+		</p>
+		
+		<hr>
+		<h2>
+			Perfil profesional
+		</h2>
+		<p>
+			Estudiante de Ingeniería en Informática con sólida formación en matemáticas y experiencia en soporte técnico, documentación de procesos y apoyo académico. Destaco por mi capacidad para resolver problemas de forma eficiente, adaptarme rápidamente a nuevos entornos y comunicarme de manera efectiva con equipos multidisciplinarios. Comprometido, proactivo y con habilidades tanto técnicas como analíticas, busco seguir desarrollándome profesionalmente en entornos dinámicos y desafiantes.
+		</p>
+		<h2>
+			Experiencia laboral
+		</h2>
+		<p>
+		<ul>
+			<li>Soporte tecnico Soluziona (2022-2024)</li>
+			<li>Practica Banco de chile (enero - marzo 2025)</li>
+			<li>Practica Banco de chile (enero - marzo 2026) </li>
+			<li>Asistente Bodega (Octubre 2025 - Enero 2026)</li>
+		</ul>
+		</p>
+		
+		<h2>
+			Educación
+		</h2>
+		<p>
+			<ul>
+				<li>Educación basica: Hermanos carrera 2017</li>
+				<li>Educación media: Hermanos Carrera 2021</li>
+				<li>Educación superior: Universidad Finis Terrae 2022-Actualidad</li>
+			</ul>
+		</p>
+		<h2>
+			Competencias
+		</h2>
+		<p>
+			<ul>
+				<li>Soporte técnico y resolución de problemas en plataformas y equipos</li>
+				<li>Documentación de procesos mediante entrevistas y elaboración de reportes</li>
+				<li>Organización de clases, revisión de informes y apoyo académico</li>
+				<li>Manejo de herramientas tecnológicas (Office, CRMs, sistemas internos)</li>
+				<li>Trabajo en equipo y comunicación efectiva con ejecutivos y supervisores</li>
+				<li>Conocimientos sólidos en cálculo, álgebra, ecuaciones diferenciales y programación básica</li>
+				<li>Capacidad de adaptación, análisis lógico y gestión del tiempo</li>
+			</ul>
+		</p>
+		
+		<h2>
+			Contactos de referencia
+		</h2>
+		<p>
+			<ul>
+				<li>Supervisor Soporte Técnico: Juan Pérez - juan.perez@soluziona.cl - 569 XXXX XXX5</li>
+				<li>Coordinador Académico: María González - maria.gonzalez@uft.edu - 569 XXXX XXX5</li>
+				<li>Supervisor Banco de Chile: Jose Miguel Miranda - jose.miguel.miranda@banchile.cl - 569 XXXX XXX5</li>
+			</ul>
+		</p>
+
+	</body>
+</html>
+
+<script>
+	// Crear la lógica (Javascript)
+	class MiComponente extends HTMLElement {
+		connectedCallback() {
+			this.innerHTML = `<p>Hola, esto es un componente!</p>`;
+		}
+	}
+
+	// Registrar la lógica (debe tener "-" en vez de espacios)
+	customElements.define('mi-saludo', MiComponente);
+
+	// Usar funciones
+	function mensaje() {
+		alert("Hola, soy el JavaScript interno!");
+	}
+
+	// Escribir en consola
+	console.log("Muchas cosas!");
+
+</script>
